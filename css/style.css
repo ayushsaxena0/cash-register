@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0A0A23;
+  color: white;
+  margin-bottom: 70px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 45px;
+  margin-top: 80px;
+}
+
+#change-due {
+  font-size: 20px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+#cash {
+  width: 220px;
+  height: 30px;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+}
+
+#purchase-btn {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #FFC446;
+  border: 2px solid #AA7321;
+}
+
+.counter {
+  margin-top: 40px;
+  height: 350px;
+  width: 300px;
+}
+
+.price {
+  margin-left: 40px;
+  padding: 5px;
+  width: 200px;
+  font-size: 18px;
+  border: 10px solid #99C9FF;
+  text-align: center;
+}
+
+.box1 {
+  width: 40px;
+  height: 30px;
+  background-color: #99C9FF;
+  margin-left: 60px;
+}
+
+.box2 {
+  width: 310px;
+  height: 240px;
+  padding: 10px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #99C9FF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 4px;
+  width: 50px;
+  height: 50px;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.design div {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: #0A0A23;
+  /* border: 2px solid #99C9FF; */
+}
+
+.cid {
+  background-color: white;
+  color: black;
+  width: 170px;
+  height: 210px;
+  padding: 10px 10px 0px 10px;
+  font-size: 17px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.cid>p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.box3 {
+  background-color: #99C9FF;
+  width: 310px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3>div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0A0A23;
+}
