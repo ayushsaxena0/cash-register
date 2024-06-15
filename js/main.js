@@ -86,13 +86,13 @@ function updatedCID(arr) {
   const newArr = [...arr].reverse();
   return `<p>Change in drawer:</p>
           Pennies: $${newArr[0][1]}</br>
-          Nickels: $${newArr[0][1]}</br>
-          Dimes: $${newArr[0][1]}</br>
-          Quarters: $${newArr[0][1]}</br>
-          Ones: $${newArr[0][1]}</br>
-          Fives: $${newArr[0][1]}</br>
-          Tens: $${newArr[0][1]}</br>
-          Twenties: $${newArr[0][1]}</br>
-          Hundreds: $${newArr[0][1]}
+          Nickels: $${newArr[1][1]}</br>
+          Dimes: $${newArr[2][1]}</br>
+          Quarters: $${newArr[3][1]}</br>
+          Ones: $${newArr[4][1]}</br>
+          Fives: $${newArr[5][1]}</br>
+          Tens: $${newArr[6][1]}</br>
+          Twenties: $${newArr[7][1]}</br>
+          Hundreds: $${newArr[8][1]}
   `;
 }
